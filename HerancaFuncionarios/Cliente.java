@@ -17,7 +17,7 @@ public class Cliente extends Pessoa {
         
         exibirDadosPessoa();       
         System.out.println("Renda: "+ renda);
-        System.out.println("Valor da Divida"+ valorDivida);
+        System.out.println("Valor da Divida: "+ valorDivida);
     
     }
 

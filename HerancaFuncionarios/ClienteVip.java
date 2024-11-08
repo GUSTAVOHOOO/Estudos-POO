@@ -5,7 +5,7 @@ import HerancaFuncionarios.Cliente;
 
 public class ClienteVip extends Cliente {
 
-    private double bonus;
+    private double bonus; // Bonus sendo em quantas vezes que o cliente pode parcelar uma divida
     
     
     public ClienteVip( String nome, int idade, String sexo, double renda, double valorDivida, double bonus) {
