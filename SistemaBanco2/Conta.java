@@ -27,7 +27,7 @@ public class Conta {
         }
     }
 
-    public void depositar(int i) {
+    public void depositar(double i) {
     if(i <= 0){
         System.out.println("Valor insdispoonivel para deposito");
     }else if( i > 0){

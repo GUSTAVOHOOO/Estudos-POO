@@ -7,9 +7,9 @@ public class Cliente {
 
     private String nome;
 
-    private LocalDate dataNascimento;
+    private String dataNascimento;
 
-    public Cliente(String nome , LocalDate dataDeNascimento) {
+    public Cliente(String nome , String dataDeNascimento) {
         this.nome = nome;        
         this.dataNascimento = dataDeNascimento;
     }
@@ -22,11 +22,11 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public LocalDate getDataNascimento() {
+    public String getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(LocalDate dataNascimento) {
+    public void setDataNascimento(String dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 
